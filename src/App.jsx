@@ -1,7 +1,7 @@
 import { SnackbarProvider, closeSnackbar } from "notistack";
 import AppRoutes from "./utils/Routes";
 import Header from "./components/header/Header";
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 import UserConfigContext from "./contextApi/UserConfigContext";
 
 function App() {
@@ -26,10 +26,10 @@ function App() {
           </button>
         )}
       >
-        <BrowserRouter>
+        <HashRouter>
           <Header />
           <AppRoutes />
-        </BrowserRouter>
+        </HashRouter>
       </SnackbarProvider>
     </UserConfigContext>
   );
