@@ -1,0 +1,67 @@
+.container {
+  height: 97vh;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.darkTheme {
+  color: #fff;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("/src/assets/Front page.png");
+}
+
+.lightTheme {
+  color: #000;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.6), rgba(0, 0, 0, 0.6)),
+    url("/src/assets/Front page.png");
+}
+
+.search-box {
+  width: 450px;
+  padding: 20px;
+}
+
+.search-box input {
+  width: 100%;
+  padding: 14px;
+  font-size: 18px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+.search-box button {
+  border-radius: 8px;
+  background-color: red;
+
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+}
+.search-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 16px;
+}
+.search-box button:disabled {
+  background-color: gray;
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+.favourite {
+  cursor: pointer;
+  background-color: red;
+  color: white;
+  border-radius: 8px;
+
+  font-size: 18px;
+}

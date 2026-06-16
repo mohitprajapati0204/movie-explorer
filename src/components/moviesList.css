@@ -1,0 +1,43 @@
+.movie-card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 80%;
+}
+
+.img-card {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.src-card {
+  height: 300px;
+}
+.back-button {
+  padding: 10px 20px;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: red;
+  margin: 20px auto;
+}
+.back-ground {
+  background-color: black;
+  min-height: 97vh;
+  max-height: auto;
+  padding-top: 4%;
+  padding-bottom: 2.5%;
+}
+
+.footer {
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 30px;
+  background-color: rgb(31, 31, 31);
+  position: fixed;
+  bottom: 0;
+  width: 99%;
+}
