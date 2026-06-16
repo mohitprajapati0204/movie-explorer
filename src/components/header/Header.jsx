@@ -41,7 +41,7 @@ function Header() {
           )}
         </div>
         <div
-          style={{ cursor: "pointer", fontWeight: "800" }}
+          style={{ cursor: "pointer", fontWeight: "700" }}
           onClick={handleHomePage}
         >
           Movies searcher
